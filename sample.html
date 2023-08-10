@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      content:"1"
+      background-color: rgb(113, 97, 97);
+    }
+    #ghost {
+      position: absolute;
+      width: 200 px;
+      height: 200 px;
+      cursor: pointer;
+      /* ... other styles ... */
+      /*pointer-events: none;  Prevent clicks on the container */
+      border-radius: 35%;
+    }
+    
+  </style>
+  <title>Ghost</title>
+</head>
+
+<body>
+  <div id="counter_container"></div>
+  <div class="ghost_container">
+    <img id="ghost" src="images/gg.png">
+  </div>
+  <script src="sample.js"></script>
+</body>
+
+</html>
